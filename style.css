@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family--3) !important;
+}
+@media print {
+ * {
+  visibility: hidden;
+}
+}
+body::-webkit-scrollbar {
+display: none !important;
+}
+a{
+    text-decoration: none;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --font-family--1: 'EB Garamond', serif;
+    --font-family--2: 'Playfair Display', serif;
+    --font-family--3: 'Crimson Text', serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero-pic{
+    width: 100%;
+    padding: 20px 20px 40px 20px;
+
+}
+.join-in-conatiner{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sinup-container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+}
+.Continue-google{
+    text-align: center;
+    width: 70%;
+    border: 1px solid rgba(0, 0, 0, 0.323);
+    background-color: var(--gray-dark);
+    color: white;
+    border-radius: 50px;
+    padding:  8px 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.Continue-phone{
+    text-align: center;
+    width: 70%;
+    border: 1px solid var(--gray-dark);
+    border-radius: 50px;
+    padding:  8px 30px;
+    color: var(--gray-dark);
+}
+.other-options-container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px 10px 0px ;
+    gap: 10px;
+}
+.Continue-other img{
+    width: 40px;
+}
