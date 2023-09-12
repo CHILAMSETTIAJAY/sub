@@ -61,55 +61,32 @@ body{
     justify-content: center;
     flex-direction: column;
 }
-.hero-pic{
+.Login-hero-pic{
     width: 100%;
-    padding: 0px 20px 40px 20px;
+    padding: 0px 20px 40px 0px;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    mix-blend-mode: multiply;
 
 }
 .join-in-conatiner{
+    position: relative;
+    top: 15%;
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.sinup-container{
-    width: 100vw;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    flex-direction: column;
-}
-.continue-google{
+.submit{
     text-align: center;
-    width: 70%;
+    width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.323);
     background-color: var(--gray-dark);
     color: white;
     border-radius: 50px;
     padding:  8px 30px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-}
-.continue-phone{
-    text-align: center;
-    width: 60%;
-    border: 1px solid var(--gray-dark);
-    border-radius: 50px;
-    padding:  7px 30px;
-    color: var(--gray-dark);
-}
-.other-options-container{
-    width: 100vw;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px 0px 10px 0px ;
-    gap: 10px;
-}
-.Continue-other img{
-    width: 40px;
 }
