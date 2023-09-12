@@ -18,7 +18,7 @@ a{
     text-decoration: none;
 }
 :root {
-    --blue: #007bff;
+    --blue: #135dad;
     --indigo: #6610f2;
     --purple: #6f42c1;
     --pink: #e83e8c;
@@ -61,24 +61,12 @@ body{
     justify-content: center;
     flex-direction: column;
 }
-.Login-hero-pic{
-    width: 100%;
-    padding: 0px 20px 40px 0px;
-    position: absolute;
-    top: -5px;
-    left: 0;
-    mix-blend-mode: multiply;
-
-}
 .join-in-conatiner{
-    position: relative;
-    top: 15%;
-    width: 100vw;
-    height: 70vh;
+    width: 75vw;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 .submit{
     text-align: center;
@@ -89,4 +77,28 @@ body{
     border-radius: 50px;
     padding:  8px 30px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.welcome-msg{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+.welcome-msg h1{
+    top: 30px;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: -1.5px;
+    margin: 20px 0px 20px 0px;
+    text-shadow: 0 4px 8px rgb(0 0 0 / 13%), 0 2px 4px rgb(0 0 0 / 9%);
+}
+.form-control:focus {
+    
+    border-color: transparent; /* Remove the border color when focused */
+    box-shadow: none; /* Remove the box shadow when focused */
+}
+.form-control{
+    display: inline;
 }

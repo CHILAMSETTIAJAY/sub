@@ -74,6 +74,11 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+.join-in-conatiner h1{
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    text-shadow: 0 4px 8px rgb(0 0 0 / 13%), 0 2px 4px rgb(0 0 0 / 9%);
+}
 .sinup-container{
     width: 100vw;
     height: auto;
