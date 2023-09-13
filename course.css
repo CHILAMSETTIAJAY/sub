@@ -62,6 +62,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
+    /* background-image: url(./img/bg3.jpg); */
+    /* background-size: 100%; */
+
 }
 .java-hero-pic{
     width: 95vw;
@@ -78,7 +81,7 @@ body {
 }
 .couser-drop-info{
     position: relative;
-    top: 200px;
+    top: 215px;
     width: 90%;
     height: inherit;
     margin: 0px auto;
@@ -88,7 +91,6 @@ body {
     text-align: center;
 }
 .syllabus-head h1{
- font-weight: 600;
  font-size: 20px;
 }
 #drop1{
@@ -129,8 +131,9 @@ margin-top: 40px;
     padding: 10px 30px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
-.why-java h1{
+.why-java h2{
     text-align: center;
+    margin-bottom: 15px;
 }
 .why-java{
     position: relative;
@@ -183,7 +186,7 @@ margin-top: 40px;
   .faq-section {
     width: 100%;
     position: relative;
-    top: 180px;
+    top: 190px;
     margin: 0 auto;
     padding: 15px;
     height: auto;
@@ -193,7 +196,6 @@ margin-top: 40px;
     text-align: center;
     margin-bottom: 20px;
     font-size: 20px;
-    font-weight: 700;
   }
   .faq-item {
     border-bottom: 1px solid #cccccc5e;
