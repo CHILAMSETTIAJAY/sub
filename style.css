@@ -121,7 +121,7 @@ body{
 #hero-section-p{
     padding: 0px 30px;
 }
-.hero-section-title , #hero-section-p{
+#hero-section-title , #hero-section-p{
     text-align: center;
 }
 .submit{
@@ -133,6 +133,10 @@ body{
     border-radius: 50px;
     padding:  8px 30px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.or{
+    margin-bottom: 0px !important;
+    opacity: 0.4;
 }
 .bi-x-lg{
     position: absolute;
