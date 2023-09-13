@@ -1,0 +1,92 @@
+.navbar{
+    background-color: white !important;
+    padding: 10px 0px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.navbar-brand{
+    display: inline !important;
+}
+.logo-pic{
+    width: 32%;
+    position: relative;
+    top: 5px;
+}
+.bi{
+    color: black !important;
+}
+.btn:hover {
+    border-color: transparent !important;
+}
+#btn1{
+    position: relative;
+    left: 13px;
+}
+.offcanvas{
+    width: 80% !important;
+    padding-left: 10px;
+}
+.offcanvas-title{
+    font-size: 14px;
+}
+.user-mail{
+    font-size: 12px;
+}
+.profile_icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    color: #666;
+    font-size: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* -webkit-box-align: center; */
+    /* -ms-flex-align: center; */
+    align-items: center;
+    /* -webkit-box-pack: center; */
+    /* -ms-flex-pack: center; */
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #666;
+    margin-right: 8px;
+    position: relative;
+    top: -4px;
+}
+.profile_container {
+    width: 100%;
+    /* display: -webkit-box!important; */
+    /* display: -ms-flexbox!important; */
+    display: flex!important;
+    /* -webkit-box-align: center; */
+    /* -ms-flex-align: center; */
+    align-items: center;
+    min-height: 76px;
+    border-bottom: 1px solid #EEE;
+}
+.active{
+    /* font-size: 14px; */
+    width: 100%;
+    cursor: pointer;
+    line-height: 1.14285714;
+}
+.dropdown-menu-dark{
+    background-color: transparent !important;
+    border: none;
+}
+.dropdown-divider{
+    background-color: #b8b8b8 !important;
+}
+#login{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.322);
+    backdrop-filter: blur(10px);
+    display: none;
+}
+.form-control:focus {
+    
+    border-color: transparent; /* Remove the border color when focused */
+    box-shadow: none; /* Remove the box shadow when focused */
+}
+.form-control{
+    display: inline;
+}
