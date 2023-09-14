@@ -20,7 +20,6 @@ a{
 ul {
     margin: 0;
     padding: 0;
-    list-style: none;
 }
 :root {
     --blue: #007bff;
@@ -68,7 +67,7 @@ body {
 }
 .java-hero-pic{
     width: 95vw;
-    height: auto;
+    height: 200px;
     background-image: url(./img/java.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -81,7 +80,7 @@ body {
 }
 .couser-drop-info{
     position: relative;
-    top: 215px;
+    top: 375px;
     width: 90%;
     height: inherit;
     margin: 0px auto;
@@ -93,22 +92,31 @@ body {
 .syllabus-head h1{
  font-size: 20px;
 }
-#drop1{
-margin-top: 40px;
+.drop-con{
+  background-color: #ffffff;
+  padding:  0px 10px 10px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.219);
+   margin-top: 40px;
+   text-align: left;
 
 }
-.drop,.topics {
-    background-color: rgba(255, 255, 255, 0.286);
-    border: 1px solid rgba(0, 0, 0, 0.219);
-    padding: 10px 30px;
-    margin-bottom:5px;
+#drop{
+  border: none !important;
+}
+.drop {
+    background-color:#cbcbcb00;
+    border-top: 1px solid rgba(0, 0, 0, 0.219);
+    padding: 10px 30px 0px 30px;
 }
 .drop h1{
  font-size: 18px;
 }
 .topics{
+  width: 98.2%;
+  margin: 0 auto;
     display: none;
-    background-color: rgba(216, 216, 216, 0.278);
+    background-color: rgba(216, 216, 216, 0);
+    padding: 10px 30px 0px 60px;
 }
 .couser-drop-info li p {
     font-size: 16px;
@@ -120,7 +128,7 @@ margin-top: 40px;
     position: relative;
     top: 130px;
     width: 90%;
-    height: inherit;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: self-start;
@@ -128,7 +136,7 @@ margin-top: 40px;
     margin: 0 auto;
     background-color: white;
     border-radius: 10px;
-    padding: 10px 30px;
+    padding: 30px 30px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 .why-java h2{
@@ -137,9 +145,13 @@ margin-top: 40px;
 }
 .why-java{
     position: relative;
-    top: 190px;
+    top: 350px;
     text-align: left;
-    padding: 0px 40px;
+    padding: 0px 30px 0px  40px;
+}
+.why1{
+  top: 30px !important;
+  padding: 0px 30px 0px 20px ;
 }
 .thought {
     display:flex;
@@ -186,7 +198,7 @@ margin-top: 40px;
   .faq-section {
     width: 100%;
     position: relative;
-    top: 190px;
+    top: 40px;
     margin: 0 auto;
     padding: 15px;
     height: auto;
@@ -216,4 +228,45 @@ margin-top: 40px;
   }
   .answer a{
     color: var(--blue) !important;
+  }
+  
+  .label{
+    background-image: linear-gradient(to right, #91221ee6 ,#91221E);
+    color: var(--certfied-tag);
+    padding-top: calc(6px - 0px);
+    padding-bottom: calc(6px - 0px);
+    padding-left: calc(16px - 0px);
+    padding-right: calc(16px - 0px);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 50px;
+    color: white;
+  }
+  .title{
+    padding: 10px 0px 0px 0px;
+    font-size: 32px;
+  }
+  .label1{
+    display: inline;
+    background-image: linear-gradient(to right, #7c292900, #00000000);
+    color: var(--certfied-tag);
+    padding-top: calc(6px - 0px);
+    padding-bottom: calc(6px - 0px);
+    padding-left: calc(16px - 0px);
+    padding-right: calc(16px - 0px);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .rating{
+    display: flex;
+    gap: 10px;
   }
